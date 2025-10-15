@@ -24,3 +24,19 @@
 ## 🚀 Quickstart
 ```bash
 pip install -r requirements.txt
+
+
+
+## 📎 Appendix A — Demo dataset used in this repo
+
+**AMR-UTI: Antimicrobial Resistance in Urinary Tract Infections**  
+<https://www.physionet.org/content/antimicrobial-resistance-uti/1.0.0/>
+
+- De-identified EHR for **>80k** UTI specimens (2007–2016).
+- **Labels:** resistance (1) vs susceptible (0) for **NIT**, **SXT**, **CIP**, **LVX** → modeled as **four separate binary tasks**.
+- **Cohort:** recommended to use `uncomplicated == 1`.
+- **Time split:** `is_train == 1` (2007–2013) for training, `is_train == 0` (2014–2016) for testing.
+- **Why classification?** Each drug is a **yes/no** “resistant?” decision; predicted probabilities help guide empiric therapy.
+
+> Please follow PhysioNet’s terms and cite the dataset & original paper as requested on the project page.
+
