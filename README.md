@@ -40,3 +40,23 @@ pip install -r requirements.txt
 
 > Please follow PhysioNet’s terms and cite the dataset & original paper as requested on the project page.
 
+
+
+
+## ▶️ Run the notebook in Google Colab
+
+Launch the end-to-end benchmark notebook directly in your colab
+
+**Direct links**
+- GitHub (view the .ipynb): https://github.com/Sina-Khajehzadeh/TabPFN/blob/main/notebooks/tabular_benchmark.ipynb
+
+> 🔧 **Adjust if needed:** replace `Sina-Khajehzadeh/TabPFN` or `main` with your actual GitHub username/repo/branch,  
+> and update the path if your notebook filename or folder is different.
+
+### Notes
+- On first run in Colab, install deps in the first cell, e.g.:
+- For private repos, Colab may prompt you to **sign in to GitHub** or grant access.
+- Large models (TabPFN) run faster with **GPU**: Runtime → Change runtime type → **GPU**.
+
+
+
